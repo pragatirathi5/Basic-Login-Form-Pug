@@ -1,0 +1,13 @@
+html 
+    head 
+        link(rel="stylesheet", href="style.css")
+        title Login Form 
+    body 
+        .container 
+         h1#admin_title Admin 
+         #login_panel 
+          h3 Login to your Account 
+          form(action="/admin/login" name="loginform")
+          input(type="text" name="email" placeholder="Email")
+          input(type="text" name="password" placeholder="Password")
+          button(type="submit" id="loginBtn")Login       
